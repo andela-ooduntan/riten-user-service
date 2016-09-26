@@ -1,0 +1,26 @@
+{
+  "name": "riten-user-service",
+  "version": "1.0.0",
+  "description": "A user micro service for riten",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-ooduntan/riten-user-service.git"
+  },
+  "author": "Oduntan Oluwatobiloba Stephen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-ooduntan/riten-user-service/issues"
+  },
+  "homepage": "https://github.com/andela-ooduntan/riten-user-service#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.10.2"
+  }
+}
