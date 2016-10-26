@@ -19,22 +19,22 @@
     lastname: {
       type: String,
       trim: true,      
-      required: true,      
+      required: true,
     },
     surname: {
       type: String,
-      trim: true,      
-      required: true,      
+      trim: true,
+      required: true,
     },
     email: {
       type: String,
-      unique: true,      
+      unique: true,
       trim: true,
       lowercase: true
     },
     phone: {
       type: String,
-      trim: true,      
+      trim: true
     },
     role: {
       type: String,
